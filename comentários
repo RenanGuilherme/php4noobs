@@ -1,0 +1,101 @@
+php4noobs
+-----------------------------------------------------------
+4noobs_1
+
+Sintaxe
+
+Para que um script seja executado no PHP, primeiro ele
+deve identificar se há uma tag de abertura de script.
+Exemplo:
+
+<?php
+...
+... conteúdo do código
+...
+?>
+
+Esta última tag identifica que o bloco de código foi
+finalizado.
+
+O php é uma linguagem que precisa de um delimitador para
+o fim de uma linhda de código. Esse delimitador é o ponto
+e vírgula (;)
+
+Função de saída
+
+A função echo() é a utilizada pra printar conteúdo na tela.
+
+Função var_dump() é responsável por identificar o tipo e
+qual a classe da variável que ela está trabalhando.
+
+Comentários
+
+Há duas formas de se fazer comentários no php:
+Os comentários de linhas únicas são iniciados com duas
+barras "//".
+
+Comentários de múltiplas linhas se inicia a linha com:
+/** Início do comentário.
+*
+*   Para cada linha, um asterisco é adicionado.
+*
+*/  Delimita o fim do comentário.
+
+Tipos de Dados
+
+Booleanos: valor binário, true ou false e são valores
+case-insensitive.
+
+Inteiros: Inteiro é um número do conjunto {...,-2, -1,
+ 0, 1, 2, ...}
+Podem ser especificados em notação decimal, hexadecimal,
+octal ou binário.
+
+Flutuantes: Os números decimais, (ponto flutuante, float
+double, "números reais").
+
+Strings: É uma série de caracteres, onde 1 caractere é
+o mesmo que 1 byte para armazenamento na memória. Isso
+significa que o php possui suporte a um conjunto de
+apenas 256 caracteres.
+
+Arrays: Uma forma de mapeamento ordenado, onde se relaciona
+valores à chaves. Há a possibilidade de um valor do array
+ser outro array.
+-----------------------------------------------------------
+
+Variáveis
+
+No php não é necessário especificar o tipo da variável. Isso
+é devido a chamada "tipagem dinâmica", sendo possível trocar
+o tipo de variável enquanto o programa roda. Mas existem
+algumas regras:
+
+Toda variável no php é declarada por "$" seguido do nome
+da variável.
+
+O jeito correto e válido para declarar o nome de uma variável
+no php é iniciar por underscore "_" ou letra minúscula.
+
+As variáveis no php são case-sensitives.
+
+O $this é uma variável não pode ser atribuída.
+
+Operadores aritméticos
+
+Adição +
+Subtração -
+Divisão /
+Módulo (resto da divisão) %
+
+$a = 10;
+$b = 5;
+$soma = $a + $b;
+echo "$soma \n";    Printa o resultado de a + b
+echo "$a + $b \n";  Printa valor de a (10) + valor de b (5)
+
+O operador "-" antes de uma variável ou número o transforma
+para o oposto, positivo vira negativo e o inverso também.
+
+$num = 77;
+echo -$num1
