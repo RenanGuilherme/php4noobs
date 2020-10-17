@@ -56,3 +56,4 @@
     // Se você fizer a operação acima na calculadora o
     // resultado vai ser igual a 0.0703125
     // o PHP retorna o valor inteiro nesta operação
+?>

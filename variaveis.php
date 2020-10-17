@@ -15,3 +15,4 @@
 
 define("HAYLEY", "https://twitter.com/yelyahwilliams");
     echo "Follow de queen " . HAYLEY . PHP_EOL;
+?>

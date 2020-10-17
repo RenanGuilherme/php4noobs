@@ -46,3 +46,4 @@
 /** Quando não precisar interpretar variáveis,
 * use aspas simples '', isso poupa memoria.
 */
+?>

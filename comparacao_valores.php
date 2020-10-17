@@ -53,3 +53,4 @@
     echo (2 > 3) . PHP_EOL; //false
     echo (2 <= 3) . PHP_EOL; //true
     echo (2 >= 3) . PHP_EOL; //false
+?>
