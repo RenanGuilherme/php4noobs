@@ -99,3 +99,57 @@ para o oposto, positivo vira negativo e o inverso também.
 
 $num = 77;
 echo -$num1
+
+Operadores Bitwise (bit a bit)
+
+Permitem a a valiação e modificação de bits específicos em
+um tipo inteiro.
+
+AND     &
+
+Retorna 1 se ambos os bits comparados for igual a 1, caso
+contrário, retorna 0.
+
+OR      |
+
+Retorna 1 se um dos bits comparados for igual a 1, caso
+contrário, retorna 0.
+
+XOR     ^
+
+Retorna 1 se ambos os bits comparados forem diferentes,
+caso contrário, retorna 0.
+
+NOT     ~
+
+Tem a função de inverter os bits.
+
+Deslocar à esquerda     <<
+
+Desloca os bits de $a, $b passos para a esquerda (cada
+passo significa "multiplicar por dois"); Ou seja,
+$a << 7, é o mesmo que multiplicar $a por 2 sete vezes.
+
+<?php
+
+$a = 9;
+$b = 7;
+echo $a << $b;
+
+//Retorna: "1152" que é o resultado de 9*2*2*2*2*2*2*2
+
+Deslocar à direita      >>
+
+Desloca os bits de $a, $b passos para a direita (cada
+passo significa "divide por dois"); Ou seja, $a << 7,
+é o mesmo que dividir $a por 2 sete vezes.
+
+<?php
+
+$a = 9;
+$b = 7;
+echo $a >> $b;
+
+//Retorna: "0" que é o resultado de 9/2/2/2/2/2/2/2
+//Se você fizer a operação acima na calculadora o resultado vai ser igual a 0.0703125
+//o PHP retorna o valor inteiro nesta operação
