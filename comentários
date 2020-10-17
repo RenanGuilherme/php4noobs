@@ -1,8 +1,6 @@
 php4noobs
------------------------------------------------------------
-4noobs_1
 
-Sintaxe
+                        Sintaxe
 
 Para que um script seja executado no PHP, primeiro ele
 deve identificar se há uma tag de abertura de script.
@@ -21,14 +19,14 @@ O php é uma linguagem que precisa de um delimitador para
 o fim de uma linhda de código. Esse delimitador é o ponto
 e vírgula (;)
 
-Função de saída
+                    Função de saída
 
 A função echo() é a utilizada pra printar conteúdo na tela.
 
 Função var_dump() é responsável por identificar o tipo e
 qual a classe da variável que ela está trabalhando.
 
-Comentários
+                    Comentários
 
 Há duas formas de se fazer comentários no php:
 Os comentários de linhas únicas são iniciados com duas
@@ -41,7 +39,7 @@ Comentários de múltiplas linhas se inicia a linha com:
 *
 */  Delimita o fim do comentário.
 
-Tipos de Dados
+                    Tipos de Dados
 
 Booleanos: valor binário, true ou false e são valores
 case-insensitive.
@@ -62,9 +60,8 @@ apenas 256 caracteres.
 Arrays: Uma forma de mapeamento ordenado, onde se relaciona
 valores à chaves. Há a possibilidade de um valor do array
 ser outro array.
------------------------------------------------------------
 
-Variáveis
+                        Variáveis
 
 No php não é necessário especificar o tipo da variável. Isso
 é devido a chamada "tipagem dinâmica", sendo possível trocar
@@ -81,7 +78,7 @@ As variáveis no php são case-sensitives.
 
 O $this é uma variável não pode ser atribuída.
 
-Operadores aritméticos
+                  Operadores aritméticos
 
 Adição +
 Subtração -
@@ -100,7 +97,7 @@ para o oposto, positivo vira negativo e o inverso também.
 $num = 77;
 echo -$num1
 
-Operadores Bitwise (bit a bit)
+                Operadores Bitwise (bit a bit)
 
 Permitem a a valiação e modificação de bits específicos em
 um tipo inteiro.
@@ -136,7 +133,7 @@ $a = 9;
 $b = 7;
 echo $a << $b;
 
-//Retorna: "1152" que é o resultado de 9*2*2*2*2*2*2*2
+// Retorna: "1152" que é o resultado de 9*2*2*2*2*2*2*2
 
 Deslocar à direita      >>
 
@@ -150,6 +147,7 @@ $a = 9;
 $b = 7;
 echo $a >> $b;
 
-//Retorna: "0" que é o resultado de 9/2/2/2/2/2/2/2
-//Se você fizer a operação acima na calculadora o resultado vai ser igual a 0.0703125
-//o PHP retorna o valor inteiro nesta operação
+// Retorna: "0" que é o resultado de 9/2/2/2/2/2/2/2
+// Se você fizer a operação acima na calculadora o resultado vai ser igual a 0.0703125
+// o PHP retorna o valor inteiro nesta operação
+
