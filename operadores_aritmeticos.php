@@ -15,7 +15,7 @@
     $c = 5;
     $soma = $a + $b;
     echo "$a + $b = " . $soma . PHP_EOL;    // 15
-    echo $a + $b . PHP_EOL;  // 10 + 5
+    echo ($a + $b) . PHP_EOL;  // 10 + 5
 
     // Subtração
     $sub = $a - $c;
