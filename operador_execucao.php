@@ -1,5 +1,5 @@
 <?php
-    // Operador de execução
+// Operador de execução
 
     // Os backticks ou backquotes (``) executam o conteúdo
     // como um comando shell e são equivalentes a shell_exec()

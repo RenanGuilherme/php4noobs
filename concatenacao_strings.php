@@ -5,14 +5,14 @@
     
     echo $nome;
 
-// Concatenação de forma abreviada .=
+    // Concatenação de forma abreviada .=
     echo PHP_EOL;
     $nome = 'Vilma Morsheingfjsdkcx';
     $nome .= ', de qua cidade?';
     
     echo $nome;
 
-// Concatenação de variáveis
+    // Concatenação de variáveis
     $nome = 'Vilma Morsheingfjsdkcx';
     $cidade = ' São Domingos';
     

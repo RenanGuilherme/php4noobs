@@ -1,4 +1,6 @@
 <?php
+// Função de saída
+
     echo "Função de saída echo: \n";
     echo "hello world" . PHP_EOL; // . operador concatenação
     echo "mensagem legal";
